@@ -1,0 +1,13 @@
+/Users/antoine/Exercism/csharp/hello-world/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/antoine/Exercism/csharp/hello-world/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/antoine/Exercism/csharp/hello-world/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/Users/antoine/Exercism/csharp/hello-world/bin/Debug/netcoreapp2.1/HelloWorld.deps.json
+/Users/antoine/Exercism/csharp/hello-world/bin/Debug/netcoreapp2.1/HelloWorld.runtimeconfig.json
+/Users/antoine/Exercism/csharp/hello-world/bin/Debug/netcoreapp2.1/HelloWorld.runtimeconfig.dev.json
+/Users/antoine/Exercism/csharp/hello-world/bin/Debug/netcoreapp2.1/HelloWorld.dll
+/Users/antoine/Exercism/csharp/hello-world/bin/Debug/netcoreapp2.1/HelloWorld.pdb
+/Users/antoine/Exercism/csharp/hello-world/obj/Debug/netcoreapp2.1/HelloWorld.csprojAssemblyReference.cache
+/Users/antoine/Exercism/csharp/hello-world/obj/Debug/netcoreapp2.1/HelloWorld.AssemblyInfoInputs.cache
+/Users/antoine/Exercism/csharp/hello-world/obj/Debug/netcoreapp2.1/HelloWorld.AssemblyInfo.cs
+/Users/antoine/Exercism/csharp/hello-world/obj/Debug/netcoreapp2.1/HelloWorld.dll
+/Users/antoine/Exercism/csharp/hello-world/obj/Debug/netcoreapp2.1/HelloWorld.pdb
