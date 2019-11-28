@@ -7,9 +7,8 @@ defmodule WordCount do
   @spec count(String.t()) :: map
   def count(sentence) do
     sentence
-    |> String.replace(~r"(?![a-zA-Z0-9\-])[!-~]|_", " ")
-    |> String.split(" ")
-    |> Enum.reject(&blank_word?(&1))
+    |> String.replace(~r/(?![\p{L}\p{N}])[!\p{S}\p{Po}\p{Pc}]/u, " ")
+    |> String.split(" ", trim: true)
     |> Enum.map(&String.downcase(&1))
     |> group_by_word
   end
@@ -17,16 +16,7 @@ defmodule WordCount do
   @spec group_by_word(list) :: map
   defp group_by_word(words) do
     Enum.reduce(words, %{}, fn word, map ->
-      if Map.has_key?(map, word) do
-        Map.put(map, word, map[word] + 1)
-      else
-        Map.put(map, word, 1)
-      end
+      Map.update(map, word, 1, &(&1 + 1))
     end)
-  end
-
-  @spec blank_word?(String.t()) :: boolean
-  defp blank_word?(word) do
-    String.trim(word) == ""
   end
 end
