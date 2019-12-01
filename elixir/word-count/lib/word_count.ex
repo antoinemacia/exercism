@@ -7,8 +7,8 @@ defmodule WordCount do
   @spec count(String.t()) :: map
   def count(sentence) do
     sentence
+    |> String.downcase
     |> String.split(~r/[\s+\p{S}\p{Po}\p{Pc}]/u, trim: true)
-    |> Enum.map(&String.downcase(&1))
     |> group_by_word
   end
 
